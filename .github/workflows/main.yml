@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: actions/checkout@master
         with:
-          app-name: CMST-Ayares1
+          app-name: cmst-ayares1
           slot-name: production
-          publish-profile: ${{ secrets.AppServiceCMST385 }}
+          publish-profile: ${{secrets.AppServiceCMST385}}
